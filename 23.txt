@@ -1,0 +1,59 @@
+1.4.10
+int main()
+{
+    int n,i;
+    double wynik;
+    printf("podaj nieujemna liczbe calkowita n\n");
+    scanf("%d",&n);
+    wynik=1;
+    if(n>=0)
+    {
+        wynik=sqrt(n);
+        wynik/100;
+    }
+    return wynik;
+}
+11111
+int main()
+{
+    int a,b,c,d;
+    printf("podaj a,b,c,d\n");
+    scanf("%d %d %d %d",&a,&b,&c,&d);
+    int x=0;
+    while(a*x*x+b*x+c>d)
+    {
+        x++;
+    }
+    printf("x to:%d\n",x);
+    int e=0;
+    while(5*e*e+a*e+b<c)
+    {
+        e++;
+    }
+    printf("x to:%d\n",e);
+    int f=0;
+    while(5*f*f+a*f+b<=c)
+    {
+        f++;
+    }
+    printf("x to:%d\n",f);
+}
+
+
+
+
+
+3.2.1 3.2.2 325 326 329 3211 3212 3215
+
+3;2;1
+int zad(int *a,int *b)
+{
+    if(*a<*b)
+    {
+        return *a;
+    }
+    else
+    {
+        return *b;
+    }
+}
